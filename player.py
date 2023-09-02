@@ -11,8 +11,10 @@ class Player(Turtle):
         self.penup()
         self.goto(STARTING_POINT)
 
+    #Move the player forward.
     def move_up(self):
         self.forward(MOVE_DISTANCE)
 
+    #Back to the original position when game started.
     def back_position(self):
         self.goto(STARTING_POINT)
