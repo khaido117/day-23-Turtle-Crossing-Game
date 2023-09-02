@@ -9,4 +9,4 @@ class GameTurtle(Turtle):
         self.goto(0, -280)
 
     def move_up(self):
-        self.backward(30)
+        self.forward(10)
